@@ -26,11 +26,11 @@ public class Lab1 {
 
     public static float[] get_float_array() {
         float result[] = new float[12];
-        float Min = -9;
-        float Max = 14;
+        float min = -9;
+        float max = 14;
         for (int i = 0; i < 12; i++) {
             Random rand = new Random();
-            result[i] = rand.nextFloat() * (Max - Min) + Min;
+            result[i] = rand.nextFloat() * (max - Min) + min;
         }
         return result;
     }
